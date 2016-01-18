@@ -1,0 +1,85 @@
+*{
+    font-family: "Raleway", sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #747704;
+}
+
+img {
+    max-width:100%;
+}
+
+header, section, figure {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 900px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+#logo {
+    margin: auto;
+    width: 25%;
+    max-width: 150px;
+    display: block;
+}
+
+#page-title {
+    margin: auto;
+    width: 75%;}
+
+#main-image {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.portfolio {
+    margin: 10px auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: right;
+    font-size: 300%;
+}
+
+h2 {
+    text-align: right;
+    font-size: 150%;
+    font-weight: 900;
+}
+    
+#work-title h2 {
+    text-align: left;
+    color: #bcbbbb;
+}
+
+@media only screen and (max-width: 599px) {
+    h1 {font-size: 150%;}
+    h2 {font-size: 100%;}
+    #main-image{width: 300px}
+    .portfolio {width: 100%}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    .portfolio {width: 50%}
+}
+
+@media only screen and (min-width: 900px) {
+    .portfolio {width: 33.3%}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "Y",
+  "description": "Jessica Miles's Portfolio Project for Udacity Nanodegree",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Jessica Miles"
+  ],
+  "license": "MIT",
+  "homepage": "n/a",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "paper-tooltip": "PolymerElements/paper-tooltip#^1.0.0"
+  }
+}

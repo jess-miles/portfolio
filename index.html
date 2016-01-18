@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+  <link rel="import" href="bower_components/paper-tooltip/paper-tooltip.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessica Miles' Web Development Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  
+  <header>
+      <div class="row">
+        <div id="logo">
+          <img src="images/my_eye.svg" alt="My eye">
+        </div>
+        <div id="page-title">
+          <h1>JESSICA MILES</h1>
+          <h2>KNITTING MASTER</h2>
+        </div>
+      </div>
+      <hr>
+  </header>
+    
+  <figure>  
+    <div id="main-image">
+      <picture>
+        <source srcset="images/Trees_web_850w.jpg" media="(min-width: 900px)"/>
+        <source srcset="images/Trees_web_550w.jpg" media="(min-width: 600px)"/>
+        <img src="images/Trees_web_300w.jpg" alt="A tree-lined street">
+      </picture>
+    </div>
+  </figure>
+
+  <section>    
+
+    <div id="work-title">
+      <h2>Featured Work</h2>
+    </div>
+    
+    <div class="grid">
+      
+      <div class="row">
+        
+        <div class="portfolio">
+          <div class="tooltip-image">
+            <img src="images/MadRiverHat.jpg" alt="Mad River Hat"/>
+            <paper-tooltip>I knitted this hat using the stranded technique.<br>
+              The color not being knitted with is<br>
+              carried along the back of the fabric.</paper-tooltip>
+          </div>
+          <h3>MAD RIVER</h3>
+          <p>link to Mad River Hat</p>
+        </div>
+      
+        <div class="portfolio">
+          <div class="tooltip-image">
+            <img src="images/GuernseyShawl.jpg" alt="Spirit of Guernsey Shawl"/>
+            <paper-tooltip>This is a large circular shawl<br>
+              that I knitted as part of a knit-along<br>
+              with the pattern designer.</paper-tooltip>
+          </div>
+          <h3>SPIRIT OF GUERNSEY</h3>
+          <p>link to Spirit of Guernsey Shawl</p>
+        </div>
+      
+        <div class="portfolio">
+          <div class="tooltip-image">
+            <img src="images/TiongBahruShawl.jpg" alt="Tiong Bahru Shawl"/>
+            <paper-tooltip>I made this shawl out of an old cashmere<br>
+            sweater which I unraveled, dyed,<br>
+            and re-knitted into a lacy pattern.</paper-tooltip>
+          </div>
+          <h3>TIONG BAHRU</h3>
+          <p>link to Tiong Bahru Shawl</p>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+</body>
+
+</html>
